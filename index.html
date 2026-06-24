@@ -6,11 +6,13 @@
     <title>Hamza Alkhaled Bau und Hausdienstleistungen | Ehringshausen</title>
     <meta
       name="description"
-      content="Hamza Alkhaled Bau und Hausdienstleistungen in der Dill Str. 4, 35630 Ehringshausen: Renovierung, Hausdienstleistung, Objektpflege und Besichtigung nach telefonischer Abstimmung."
+      content="Hamza Alkhaled Bau und Hausdienstleistungen in der Dill Str. 4, 35630 Ehringshausen: Bau, Renovierung, Hausmeisterarbeit, Objektbetreuung und Aussenpflege nach Besichtigung."
     >
     <link rel="stylesheet" href="styles.css">
+    <script src="assets/site-status.js" defer></script>
+    <script src="assets/app.js" defer></script>
   </head>
-  <!-- Wartungsmodus aktivieren: <body class="site-maintenance"> setzen. Normalbetrieb: <body> lassen. -->
+  <!-- Wartungsmodus aktivieren: in assets/site-status.js maintenance auf true setzen. -->
   <body>
     <section class="maintenance-screen" aria-labelledby="maintenance-title" aria-live="polite">
       <div class="maintenance-card">
@@ -35,8 +37,8 @@
       </a>
       <nav class="nav" aria-label="Hauptnavigation">
         <a href="#leistungen">Leistungen</a>
+        <a href="#hausmeister">Hausmeisterarbeit</a>
         <a href="#ablauf">Ablauf</a>
-        <a href="#sprechzeiten">Sprechzeiten</a>
         <a href="#kontakt">Kontakt</a>
       </nav>
     </header>
@@ -44,161 +46,203 @@
     <main id="start">
       <section class="hero">
         <img class="hero-image" src="assets/hamza-bau-hero.png" alt="Gepflegtes Wohnhaus mit Handwerksmaterialien fuer Bau und Hausdienstleistungen">
-        <div class="hero-panel">
-          <p class="eyebrow">Bau und Hausdienstleistungen in Ehringshausen</p>
-          <h1>Saubere Arbeit rund um Haus, Bau und Objekt.</h1>
-          <p class="hero-copy">
-            Hamza Alkhaled Bau und Hausdienstleistungen ist Ihr Ansprechpartner fuer praktische Arbeiten an Haus,
-            Wohnung, Garten und Objekt. Besichtigungen, Auftragsklaerung und Termine werden telefonisch abgestimmt,
-            damit der Aufwand realistisch geplant werden kann.
-          </p>
-          <div class="hero-actions">
-            <a class="button primary" href="#kontakt">Besichtigung anfragen</a>
-            <a class="button secondary" href="#leistungen">Leistungen ansehen</a>
+        <div class="hero-content">
+          <div class="hero-panel">
+            <p class="eyebrow">Bau, Hausmeisterarbeit und Objektpflege in Ehringshausen</p>
+            <h1>Hamza Bau</h1>
+            <p class="hero-lead">Bau &amp; Hausdienstleistungen fuer gepflegte Objekte.</p>
+            <p class="hero-copy">
+              Ihr Objekt in guten Haenden: Hamza Alkhaled Bau und Hausdienstleistungen uebernimmt praktische Arbeiten
+              rund um Haus, Wohnung, Aussenanlage und Mietobjekt. Erst wird der Auftrag sauber besichtigt, dann
+              realistisch geplant und ordentlich umgesetzt.
+            </p>
+            <div class="hero-actions">
+              <a class="button primary" href="#kontakt">Besichtigung anfragen</a>
+              <a class="button secondary" href="#leistungen">Leistungen ansehen</a>
+            </div>
           </div>
-          <div class="hero-facts" aria-label="Kontaktdaten">
-            <span>Dill Str. 4</span>
-            <span>35630 Ehringshausen</span>
-            <span>Mo-Do 07:00-17:00</span>
-          </div>
+
+          <aside class="hero-card" aria-label="Schnellinformationen">
+            <img src="assets/hamza-logo.svg" alt="Hamza Alkhaled Logo">
+            <div class="quick-row">
+              <span>Standort</span>
+              <strong>Dill Str. 4<br>35630 Ehringshausen</strong>
+            </div>
+            <div class="quick-row">
+              <span>Telefonisch erreichbar</span>
+              <strong>Mo-Do 07:00 - 17:00<br>Fr 07:00 - 12:00</strong>
+            </div>
+            <p>Fuer Besichtigung, Terminabsprache und Auftragsklaerung.</p>
+          </aside>
         </div>
       </section>
 
       <section class="trust-strip" aria-label="Kurzvorteile">
-        <span>Regional in Ehringshausen</span>
-        <span>Besichtigung nach Absprache</span>
-        <span>Klare Auftragsklaerung</span>
-        <span>Ordentliche Ausfuehrung</span>
+        <span>Besichtigung vor Ort</span>
+        <span>Hausmeisterarbeit durchfuehrbar</span>
+        <span>Klare Absprachen</span>
+        <span>Saubere Uebergabe</span>
       </section>
 
-      <section class="section intro" aria-labelledby="intro-title">
-        <div>
+      <section class="section intro-panel" aria-labelledby="intro-title">
+        <div class="intro-text">
           <p class="eyebrow">Firma vor Ort</p>
-          <h2 id="intro-title">Verlaessliche Unterstuetzung fuer private und gewerbliche Objekte.</h2>
-        </div>
-        <div class="intro-copy">
+          <h2 id="intro-title">Flexible Hilfe fuer Haus, Bau und laufende Objektpflege.</h2>
           <p>
-            Ob Renovierungsarbeit, laufende Hausdienstleistung oder einzelne Instandsetzung: Der Auftrag wird zuerst
-            besprochen, bei Bedarf vor Ort besichtigt und danach sauber umgesetzt. So wissen beide Seiten, welche Arbeit
-            ansteht, welches Material benoetigt wird und wann die Ausfuehrung realistisch ist.
+            Ob Einzelauftrag oder wiederkehrende Arbeit: Die Leistung wird zum Objekt passend abgestimmt. Dadurch
+            entsteht keine unklare Baustelle, sondern ein geplanter Ablauf mit Besichtigung, Termin und sauberem Ergebnis.
           </p>
-          <div class="proof-list" aria-label="Arbeitsweise">
-            <span>Besichtigung</span>
-            <span>Absprache</span>
-            <span>Ausfuehrung</span>
-            <span>Uebergabe</span>
-          </div>
+        </div>
+        <div class="method-grid" aria-label="Arbeitsweise">
+          <article>
+            <span>01</span>
+            <strong>Besichtigen</strong>
+            <p>Aufgabe, Ort und Umfang werden vor Beginn geklaert.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <strong>Planen</strong>
+            <p>Material, Termin und Aufwand werden realistisch abgestimmt.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <strong>Erledigen</strong>
+            <p>Die Arbeit wird ordentlich umgesetzt und sauber uebergeben.</p>
+          </article>
         </div>
       </section>
 
       <section class="section" id="leistungen" aria-labelledby="services-title">
-        <div class="section-heading wide-heading">
-          <div>
-            <p class="eyebrow">Leistungen</p>
-            <h2 id="services-title">Was wir fuer Ihr Objekt erledigen</h2>
-          </div>
-          <p>
-            Die wichtigsten Bereiche sind bewusst klar getrennt, damit Sie schnell erkennen, ob Ihr Auftrag passt.
-          </p>
+        <div class="section-heading">
+          <p class="eyebrow">Leistungen</p>
+          <h2 id="services-title">Flexible Leistungsboxen fuer Haus, Bau und Pflege</h2>
+          <p>Die Bereiche sind flexibel kombinierbar. Entscheidend ist, was Ihr Objekt wirklich braucht.</p>
         </div>
 
         <div class="service-grid">
-          <article class="service-card featured-service">
+          <article class="service-card">
             <img src="assets/service-renovierung.jpg" alt="Saubere Renovierungsarbeiten im Innenbereich">
             <div class="service-body">
-              <span class="service-icon">01</span>
+              <span class="service-number">01</span>
               <h3>Renovierung und Ausbesserung</h3>
-              <p>Malerarbeiten, kleinere Ausbesserungen, Vorbereitung von Flaechen, Montagearbeiten und handwerkliche Unterstuetzung im Innenbereich.</p>
+              <p>Flaechen vorbereiten, kleine Reparaturen, Montagearbeiten und saubere Unterstuetzung im Innenbereich.</p>
+              <div class="tag-row">
+                <span>Malerarbeiten</span>
+                <span>Ausbesserung</span>
+                <span>Montage</span>
+              </div>
             </div>
           </article>
 
-          <article class="service-card featured-service">
-            <img src="assets/service-objektpflege.jpg" alt="Werkzeug und Checkliste fuer Objektbetreuung">
+          <article class="service-card highlight-card">
+            <img src="assets/service-hausmeister.jpg" alt="Hausmeisterarbeit mit Werkzeug in einem gepflegten Objekt">
             <div class="service-body">
-              <span class="service-icon">02</span>
-              <h3>Hausdienstleistung</h3>
-              <p>Unterstuetzung bei regelmaessigen Aufgaben rund ums Haus, kleine Reparaturen, Pflege von Bereichen und schnelle Abstimmung bei Bedarf.</p>
+              <span class="service-number">02</span>
+              <h3>Hausmeisterarbeit</h3>
+              <p>Kleine Reparaturen, Kontrollen, einfache Instandhaltung und praktische Hilfe fuer Wohn- und Mietobjekte.</p>
+              <div class="tag-row">
+                <span>Kontrolle</span>
+                <span>Kleinreparatur</span>
+                <span>Betreuung</span>
+              </div>
             </div>
           </article>
 
-          <article class="service-card featured-service">
+          <article class="service-card">
             <img src="assets/service-aussenpflege.jpg" alt="Gepflegte Aussenanlage und Gartenbereich">
             <div class="service-body">
-              <span class="service-icon">03</span>
+              <span class="service-number">03</span>
               <h3>Aussen- und Gartenpflege</h3>
-              <p>Ordnung rund um Wege, Einfahrten, Gartenbereiche und Aussenflaechen, damit Ihr Objekt gepflegt und nutzbar bleibt.</p>
+              <p>Ordnung rund um Wege, Einfahrten, Gartenbereiche und Aussenflaechen fuer ein gepflegtes Objekt.</p>
+              <div class="tag-row">
+                <span>Wege</span>
+                <span>Garten</span>
+                <span>Aussenbereich</span>
+              </div>
             </div>
           </article>
 
-          <article class="service-note">
-            <p class="eyebrow">Objektbetreuung</p>
-            <h3>Auch fuer Vermieter und kleine Gewerbeflaechen</h3>
-            <p>Praktische Hilfe: kontrollieren, abstimmen, erledigen und sauber uebergeben. Ideal fuer einzelne Auftraege oder wiederkehrende Aufgaben nach Absprache.</p>
+          <article class="service-card">
+            <img src="assets/service-objektpflege.jpg" alt="Werkzeug und Checkliste fuer Objektbetreuung">
+            <div class="service-body">
+              <span class="service-number">04</span>
+              <h3>Objektbetreuung</h3>
+              <p>Praktische Unterstuetzung fuer Vermieter, kleine Gewerbeflaechen und laufende Aufgaben nach Absprache.</p>
+              <div class="tag-row">
+                <span>Mietobjekte</span>
+                <span>Gewerbe</span>
+                <span>Absprache</span>
+              </div>
+            </div>
           </article>
         </div>
       </section>
 
-      <section class="band" id="ablauf" aria-labelledby="process-title">
-        <div class="band-content split-band">
+      <section class="feature-band" id="hausmeister" aria-labelledby="caretaker-title">
+        <div class="feature-content">
           <div>
-            <p class="eyebrow">Ablauf</p>
-            <h2 id="process-title">Erst besichtigen, dann sauber planen.</h2>
-            <p class="band-copy">
-              Viele Arbeiten lassen sich erst nach einem kurzen Blick vor Ort fair einschaetzen. Die telefonischen
-              Sprechzeiten dienen daher vor allem der ersten Auftragsklaerung, der Besichtigung und der Terminabsprache.
-            </p>
-          </div>
-          <div class="process-list">
-            <article>
-              <strong>1. Telefonische Anfrage</strong>
-              <p>Sie nennen Objekt, Aufgabe, Adresse und gewuenschten Zeitraum.</p>
-            </article>
-            <article>
-              <strong>2. Besichtigung</strong>
-              <p>Wenn noetig, wird der Auftrag vor Ort angesehen und der Umfang geklaert.</p>
-            </article>
-            <article>
-              <strong>3. Umsetzung</strong>
-              <p>Nach Absprache werden Arbeit, Material und Termin verlaesslich umgesetzt.</p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section info-section" id="sprechzeiten" aria-labelledby="hours-title">
-        <div class="section-heading">
-          <p class="eyebrow">Telefonische Sprechzeiten</p>
-          <h2 id="hours-title">Erreichbarkeit fuer Besichtigung und Auftragsabstimmung</h2>
-        </div>
-        <div class="info-grid">
-          <article class="hours-card">
-            <h3>Montag bis Donnerstag</h3>
-            <p class="hours-time">07:00 - 17:00 Uhr</p>
-            <p>Telefonisch erreichbar fuer Anfragen, Rueckfragen, Besichtigungen und Terminabsprachen.</p>
-          </article>
-          <article class="hours-card">
-            <h3>Freitag</h3>
-            <p class="hours-time">07:00 - 12:00 Uhr</p>
-            <p>Kurze Abstimmung vor dem Wochenende, besonders fuer Besichtigungstermine und laufende Auftraege.</p>
-          </article>
-          <article class="notice-card">
-            <h3>Wichtig</h3>
+            <p class="eyebrow">Hausmeisterarbeit</p>
+            <h2 id="caretaker-title">Regelmaessige Aufgaben und kleine Probleme werden direkt angepackt.</h2>
             <p>
-              Die telefonische Erreichbarkeit ist fuer die Auftragsbesichtigung und Planung vorgesehen. Arbeiten vor Ort
-              erfolgen nach vorheriger Absprache.
+              Hausmeisterarbeit kann fuer Wohnobjekte, Mietbereiche und kleinere Gewerbeflaechen durchgefuehrt werden.
+              Der Umfang wird vorher abgestimmt, damit klar ist, was regelmaessig oder einmalig erledigt werden soll.
             </p>
+          </div>
+          <div class="feature-stack">
+            <img src="assets/service-hausmeister.jpg" alt="Hausmeisterarbeit mit Werkzeug und Checkliste">
+            <div class="feature-list">
+              <span>Kleine Reparaturen</span>
+              <span>Kontrollgaenge</span>
+              <span>Pflege von Gemeinschaftsbereichen</span>
+              <span>Rueckmeldung bei Auffaelligkeiten</span>
+              <span>Vor-Ort-Termine nach Absprache</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="ablauf" aria-labelledby="process-title">
+        <div class="section-heading">
+          <p class="eyebrow">Ablauf</p>
+          <h2 id="process-title">Von der Anfrage bis zur Uebergabe</h2>
+        </div>
+        <div class="timeline-grid">
+          <article>
+            <span>1</span>
+            <h3>Telefonische Anfrage</h3>
+            <p>Sie nennen Objekt, Aufgabe, Adresse und gewuenschten Zeitraum.</p>
+          </article>
+          <article>
+            <span>2</span>
+            <h3>Besichtigung</h3>
+            <p>Der Umfang wird bei Bedarf vor Ort angesehen und realistisch eingeschaetzt.</p>
+          </article>
+          <article>
+            <span>3</span>
+            <h3>Ausfuehrung</h3>
+            <p>Die Arbeiten erfolgen nach Absprache mit sauberer Uebergabe.</p>
           </article>
         </div>
       </section>
 
-      <section class="section locality" aria-labelledby="local-title">
-        <div class="local-box">
-          <p class="eyebrow">Adresse</p>
-          <h2 id="local-title">Hamza Alkhaled Bau und Hausdienstleistungen</h2>
-          <p>
-            Dill Str. 4, 35630 Ehringshausen. Von hier aus werden Auftraege in Ehringshausen und Umgebung abgestimmt.
-            Kurze Wege erleichtern Besichtigung, Terminplanung und saubere Umsetzung.
-          </p>
+      <section class="section info-section" aria-labelledby="hours-title">
+        <div class="section-heading">
+          <p class="eyebrow">Sprechzeiten</p>
+          <h2 id="hours-title">Telefonische Erreichbarkeit fuer Besichtigung und Planung</h2>
+        </div>
+        <div class="hours-grid">
+          <article>
+            <span>Mo-Do</span>
+            <strong>07:00 - 17:00 Uhr</strong>
+          </article>
+          <article>
+            <span>Freitag</span>
+            <strong>07:00 - 12:00 Uhr</strong>
+          </article>
+          <article>
+            <span>Hinweis</span>
+            <strong>Vor-Ort-Arbeiten nach Terminabsprache</strong>
+          </article>
         </div>
       </section>
 
@@ -206,10 +250,10 @@
         <div class="contact-content">
           <div>
             <p class="eyebrow">Kontakt</p>
-            <h2 id="contact-title">Auftrag telefonisch besprechen</h2>
+            <h2 id="contact-title">Besichtigung oder Hausmeisterarbeit abstimmen</h2>
             <p>
-              Fuer eine schnelle Einschaetzung sollten Sie bei der Anfrage kurz nennen: Adresse des Objekts, gewuenschte
-              Arbeiten, Fotos falls vorhanden und den bevorzugten Zeitraum fuer eine Besichtigung.
+              Fuer eine schnelle Einschaetzung helfen kurze Angaben: Objektadresse, gewuenschte Arbeit, Fotos falls
+              vorhanden und moeglicher Zeitraum fuer eine Besichtigung.
             </p>
           </div>
           <div class="contact-card">
@@ -218,9 +262,8 @@
             <p>Dill Str. 4<br>35630 Ehringshausen</p>
             <div class="contact-divider"></div>
             <p><strong>Telefonische Sprechzeiten</strong></p>
-            <p>Mo-Do: 07:00 - 17:00 Uhr<br>Fr: 07:00 - 12:00 Uhr</p>
-            <p class="small-note">Auftragsbesichtigungen und Vor-Ort-Termine erfolgen nach telefonischer Abstimmung.</p>
-            <a class="button primary" href="#sprechzeiten">Sprechzeiten ansehen</a>
+            <p>Montag bis Donnerstag: 07:00 - 17:00 Uhr<br>Freitag: 07:00 - 12:00 Uhr</p>
+            <p class="small-note">Besichtigungen und Vor-Ort-Termine erfolgen nach vorheriger telefonischer Abstimmung.</p>
           </div>
         </div>
       </section>
