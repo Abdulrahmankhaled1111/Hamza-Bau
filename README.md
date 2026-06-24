@@ -1,10 +1,10 @@
-# Hamza Bau und Hausdienstleistung
+# Hamza Alkhaled Bau und Hausdienstleistungen
 
-Statische Unternehmenswebsite fuer Hamza Bau und Hausdienstleistung in 35630 Ehringshausen.
+Statische Unternehmenswebsite fuer Hamza Alkhaled Bau und Hausdienstleistungen, Dill Str. 4, 35630 Ehringshausen.
 
 ## Inhalt
 
-- Startseite mit Leistungen, Ablauf, regionalem Bezug und Kontaktbereich
+- Startseite mit Leistungen, Ablauf, Sprechzeiten, Adresse und Kontaktbereich
 - Impressum
 - Datenschutzerklaerung
 - Bildmaterial im Ordner `assets`
@@ -22,7 +22,6 @@ Danach ist die Seite unter der GitHub-Pages-Adresse des Repositorys erreichbar.
 
 ## Vor dem Livegang pruefen
 
-- Echte Telefonnummer einsetzen.
-- Echte E-Mail-Adresse einsetzen.
+- Finale Telefonnummer einsetzen.
 - Impressum mit vollstaendigen Unternehmensdaten pruefen.
 - Datenschutzerklaerung rechtlich pruefen lassen.

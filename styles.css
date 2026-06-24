@@ -231,12 +231,33 @@ h3 {
 }
 
 .intro > p,
+.intro-copy p,
 .service-card p,
 .local-box p,
 .contact-content p,
 .legal-page p,
 .legal-page li {
   color: var(--muted);
+}
+
+.intro-copy p {
+  margin-bottom: 20px;
+}
+
+.proof-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.proof-list span {
+  padding: 7px 10px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--steel);
+  font-size: 0.9rem;
+  font-weight: 800;
 }
 
 .section-heading {
@@ -283,15 +304,26 @@ h3 {
   padding: clamp(54px, 8vw, 92px) 0;
 }
 
+.split-band {
+  display: grid;
+  grid-template-columns: minmax(0, 0.85fr) minmax(360px, 1.15fr);
+  gap: clamp(28px, 6vw, 72px);
+  align-items: start;
+}
+
 .band .eyebrow {
   color: #f0b49d;
+}
+
+.band-copy {
+  max-width: 58ch;
+  color: rgba(255, 255, 255, 0.78);
 }
 
 .process-list {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 14px;
-  margin-top: 26px;
 }
 
 .process-list article {
@@ -305,6 +337,43 @@ h3 {
 .process-list p {
   margin: 10px 0 0;
   color: rgba(255, 255, 255, 0.78);
+}
+
+.info-section {
+  padding-bottom: clamp(36px, 6vw, 70px);
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.hours-card,
+.notice-card {
+  min-height: 220px;
+  padding: 24px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: 0 10px 24px rgba(32, 35, 31, 0.07);
+}
+
+.notice-card {
+  background: #f2eee5;
+  border-color: #d4c4ad;
+}
+
+.hours-time {
+  margin-bottom: 14px;
+  color: var(--accent-dark);
+  font-size: 1.45rem;
+  font-weight: 800;
+}
+
+.hours-card p,
+.notice-card p {
+  color: var(--muted);
 }
 
 .locality {
@@ -348,6 +417,16 @@ h3 {
 
 .contact-card p {
   margin-bottom: 12px;
+}
+
+.contact-divider {
+  height: 1px;
+  margin: 18px 0;
+  background: var(--line);
+}
+
+.small-note {
+  font-size: 0.93rem;
 }
 
 .contact-card .button {
@@ -433,7 +512,9 @@ h3 {
   }
 
   .intro,
+  .split-band,
   .process-list,
+  .info-grid,
   .contact-content {
     grid-template-columns: 1fr;
   }
