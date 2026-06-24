@@ -29,6 +29,17 @@ body {
   line-height: 1.55;
 }
 
+body.site-maintenance {
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+body.site-maintenance .topbar,
+body.site-maintenance main,
+body.site-maintenance .footer {
+  display: none;
+}
+
 a {
   color: inherit;
 }
@@ -205,6 +216,65 @@ h3 {
 
 .button:hover {
   transform: translateY(-1px);
+}
+
+.maintenance-screen {
+  min-height: 100vh;
+  display: none;
+  place-items: center;
+  padding: 28px;
+  background:
+    linear-gradient(90deg, rgba(244, 241, 234, 0.94), rgba(244, 241, 234, 0.78)),
+    url("assets/hamza-bau-hero.png") center / cover;
+}
+
+body.site-maintenance .maintenance-screen {
+  display: grid;
+}
+
+.maintenance-card {
+  width: min(620px, 100%);
+  padding: clamp(28px, 6vw, 48px);
+  border: 1px solid rgba(32, 35, 31, 0.14);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.92);
+  box-shadow: var(--shadow);
+}
+
+.maintenance-logo {
+  width: min(240px, 100%);
+  display: block;
+  margin-bottom: 26px;
+}
+
+.maintenance-card h1 {
+  max-width: 12ch;
+  margin-bottom: 18px;
+  font-size: clamp(2.2rem, 6vw, 4.2rem);
+}
+
+.maintenance-card p {
+  color: var(--muted);
+}
+
+.maintenance-hours {
+  display: grid;
+  gap: 8px;
+  margin: 24px 0 18px;
+}
+
+.maintenance-hours span {
+  padding: 11px 12px;
+  border-radius: 8px;
+  background: #edf3ef;
+  color: var(--forest);
+  font-weight: 800;
+}
+
+.maintenance-address {
+  margin-bottom: 0;
+  color: var(--steel);
+  font-weight: 800;
 }
 
 .trust-strip {
