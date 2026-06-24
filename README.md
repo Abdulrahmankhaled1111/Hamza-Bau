@@ -1,6 +1,7 @@
 # Hamza Alkhaled Bau und Hausdienstleistungen
 
 Statische Unternehmenswebsite fuer Hamza Alkhaled Bau und Hausdienstleistungen, Dill Str. 4, 35630 Ehringshausen.
+Kontakt: +49 1590 1328051, hamzabau06@gmail.com.
 
 ## Inhalt
 
@@ -22,6 +23,5 @@ Danach ist die Seite unter der GitHub-Pages-Adresse des Repositorys erreichbar.
 
 ## Vor dem Livegang pruefen
 
-- Finale Telefonnummer einsetzen.
 - Impressum mit vollstaendigen Unternehmensdaten pruefen.
 - Datenschutzerklaerung rechtlich pruefen lassen.

@@ -262,6 +262,16 @@ h3 {
   line-height: 1.35;
 }
 
+.quick-row a {
+  color: var(--deep);
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.quick-row a:hover {
+  color: var(--teal-dark);
+}
+
 .hero-card p {
   margin: 14px 0 0;
   padding: 12px;
@@ -572,6 +582,33 @@ h3 {
   background: var(--line);
 }
 
+.contact-actions,
+.maintenance-contact {
+  display: grid;
+  gap: 9px;
+}
+
+.contact-actions a,
+.maintenance-contact a {
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--soft);
+  color: var(--deep);
+  font-weight: 900;
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+
+.contact-actions a:hover,
+.maintenance-contact a:hover {
+  border-color: rgba(15, 118, 110, 0.34);
+  color: var(--teal-dark);
+}
+
 .small-note {
   font-size: 0.93rem;
 }
@@ -624,6 +661,10 @@ body.site-maintenance .maintenance-screen {
   display: grid;
   gap: 8px;
   margin: 24px 0 18px;
+}
+
+.maintenance-contact {
+  margin-bottom: 18px;
 }
 
 .maintenance-hours span {
