@@ -1,9 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 64" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 64" role="img" aria-labelledby="title desc">
   <title id="title">Hamza Alkhaled Logo</title>
   <desc id="desc">Wortmarke fuer Hamza Alkhaled Bau und Hausdienstleistungen</desc>
-  <rect width="220" height="64" rx="10" fill="#20231f"/>
-  <path d="M19 45V22l15-10 15 10v23h-9V31H28v14h-9Z" fill="#f4f1ea"/>
-  <path d="M55 45 68 18h9l13 27h-10l-2-5H67l-2 5H55Zm15-12h6l-3-7-3 7Z" fill="#c1502e"/>
-  <text x="98" y="29" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="800">HAMZA</text>
-  <text x="98" y="47" fill="#d8d0c2" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="700">BAU &amp; HAUSDIENSTLEISTUNGEN</text>
+  <rect width="240" height="64" rx="8" fill="#102f2a"/>
+  <rect x="8" y="8" width="52" height="48" rx="8" fill="#f7fbf9" opacity="0.1"/>
+  <path d="M18 45V23l15-10 15 10v22h-9V32H27v13h-9Z" fill="#ffffff"/>
+  <path d="M15 24 33 12l18 12" fill="none" stroke="#e4a11b" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M62 45 75 18h9l13 27H87l-2-5H74l-2 5H62Zm15-12h6l-3-7-3 7Z" fill="#e4a11b"/>
+  <text x="105" y="29" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="800">HAMZA BAU</text>
+  <text x="105" y="47" fill="#d6eee8" font-family="Arial, Helvetica, sans-serif" font-size="8.5" font-weight="700">HAUSDIENSTLEISTUNGEN</text>
 </svg>
