@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 64" role="img" aria-labelledby="title desc">
-  <title id="title">Hamza Alkhaled Logo</title>
-  <desc id="desc">Wortmarke fuer Hamza Alkhaled Bau und Hausdienstleistungen</desc>
-  <rect width="240" height="64" rx="8" fill="#102f2a"/>
-  <rect x="8" y="8" width="52" height="48" rx="8" fill="#f7fbf9" opacity="0.1"/>
-  <path d="M18 45V23l15-10 15 10v22h-9V32H27v13h-9Z" fill="#ffffff"/>
-  <path d="M15 24 33 12l18 12" fill="none" stroke="#e4a11b" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M62 45 75 18h9l13 27H87l-2-5H74l-2 5H62Zm15-12h6l-3-7-3 7Z" fill="#e4a11b"/>
-  <text x="105" y="29" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="800">HAMZA BAU</text>
-  <text x="105" y="47" fill="#d6eee8" font-family="Arial, Helvetica, sans-serif" font-size="8.5" font-weight="700">HAUSDIENSTLEISTUNGEN</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 84" role="img" aria-labelledby="title desc">
+  <title id="title">Hamza Bau Logo</title>
+  <desc id="desc">Wortmarke für Hamza Alkhaled Bau und Hausdienstleistungen</desc>
+  <rect x="2" y="2" width="80" height="80" rx="14" fill="#102f2a"/>
+  <path d="M20 43 42 25l22 18" fill="none" stroke="#e4a11b" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M25 68V43l17-13 17 13v25H48V53H36v15H25Z" fill="#ffffff"/>
+  <path d="M91 18h1.5v48H91z" fill="#d6e5df"/>
+  <text x="108" y="35" fill="#102f2a" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="25" font-weight="900">HAMZA BAU</text>
+  <text x="109" y="57" fill="#0b5c55" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" font-weight="800">BAU &amp; HAUSDIENSTLEISTUNGEN</text>
+  <text x="109" y="73" fill="#63706b" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="10" font-weight="700">Ehringshausen</text>
 </svg>
