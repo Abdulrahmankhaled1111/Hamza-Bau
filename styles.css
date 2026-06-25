@@ -546,55 +546,6 @@ h3 {
   line-height: 1.18;
 }
 
-.download-section {
-  padding-top: 0;
-}
-
-.download-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 18px;
-}
-
-.download-card {
-  min-height: 300px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: clamp(24px, 4vw, 34px);
-  border: 1px solid var(--line);
-  border-top: 5px solid var(--gold);
-  border-radius: 8px;
-  background:
-    linear-gradient(145deg, rgba(234, 244, 239, 0.88), rgba(255, 255, 255, 0.92)),
-    #ffffff;
-  box-shadow: 0 14px 34px rgba(18, 24, 22, 0.08);
-}
-
-.download-card:nth-child(2) {
-  border-top-color: var(--teal);
-}
-
-.download-card > span {
-  width: 48px;
-  height: 48px;
-  display: inline-grid;
-  place-items: center;
-  margin-bottom: 22px;
-  border-radius: 8px;
-  background: var(--deep);
-  color: white;
-  font-weight: 900;
-}
-
-.download-card p {
-  color: var(--muted);
-}
-
-.download-card .button {
-  margin-top: auto;
-}
-
 .contact-section {
   background: #ffffff;
   border-top: 1px solid var(--line);
@@ -792,8 +743,7 @@ body.site-maintenance .maintenance-screen {
   .feature-content,
   .contact-content,
   .timeline-grid,
-  .hours-grid,
-  .download-grid {
+  .hours-grid {
     grid-template-columns: 1fr;
   }
 
