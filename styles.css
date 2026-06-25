@@ -25,7 +25,7 @@ html {
 
 body {
   margin: 0;
-  padding-bottom: 68px;
+  padding-bottom: 0;
   background:
     linear-gradient(180deg, #ffffff 0%, var(--bg) 320px),
     var(--bg);
@@ -870,7 +870,7 @@ h3 {
   right: 18px;
   bottom: 16px;
   z-index: 20;
-  display: flex;
+  display: none;
   align-items: center;
   gap: 8px;
   padding: 8px;
@@ -1006,6 +1006,10 @@ body.site-maintenance .maintenance-screen {
 }
 
 @media (max-width: 860px) {
+  body {
+    padding-bottom: 76px;
+  }
+
   .topbar {
     align-items: flex-start;
     flex-direction: column;
@@ -1054,6 +1058,7 @@ body.site-maintenance .maintenance-screen {
   }
 
   .quick-contact-bar {
+    display: flex;
     right: 10px;
     left: 10px;
     bottom: 10px;
